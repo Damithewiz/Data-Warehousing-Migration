@@ -18,11 +18,11 @@ The aim of this project is to simulate a real-world data warehouse migration pro
 - Ready-to-query Schema for downstream reporting.
 
 ## Tools & Technologies
-PostgreSQL – Core database engine
-pgAdmin – SQL development environment
-Python (Pandas, SQLAlchemy) – Data processing & staging
-SQL – Schema design and transformations
-E-commerce Dataset – Retail transaction data from Kaggle View the database link here: [Database Public Link](https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset)
+- PostgreSQL – Core database engine
+- pgAdmin – SQL development environment
+- Python (Pandas, SQLAlchemy) – Data processing & staging
+- SQL – Schema design and transformations
+- E-commerce Dataset – Retail transaction data from Kaggle View the database link here: [Database Public Link](https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset)
 
 ## Schema Overview
 The project uses a classic Star Schema. Each table was carefully designed and normalized to reduce redundancy and support efficient querying with the following structure:
